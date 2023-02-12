@@ -171,7 +171,7 @@ class PhoneFormField extends FormField<PhoneNumber> {
               controller: field._childController,
               showFlagInInput: showFlagInInput,
               selectorNavigator: countrySelectorNavigator,
-              errorText: field.getErrorText(),
+              errorText: '', //field.getErrorText(),
               flagSize: flagSize,
               decoration: decoration,
               enabled: enabled,
